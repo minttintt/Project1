@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;0,800;1,400&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font: 400 19px/1 "Raleway", arial, tahoma, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+ul, li {
+	list-style: none;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.banner1 {
+	background: url(../images/banner.jpg) no-repeat center top / cover;
+	height: 975px;
+}
+
+header {
+	background-color: black;
+	margin-top: 40px;
+	width: 100%;
+
+
+}
+
+.header1 {
+	margin: 0 auto;
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 6px 0 10px;
+	
+}
+
+.menu {
+	display: flex;
+	width: 550px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.navigation_item a {
+	color: #00c0ff;
+	font-size: 19.11px;
+	font-weight: 500;
+}
+
+.container_sport {
+	width: 47%;
+	margin: 286px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sport_img {
+	width: 75%;
+
+}
+
+.sport_img_info {
+	margin-top: 62px;
+	color: #ffffff;
+	font-size: 21.79px;
+	font: 400 21.8/1 Raleway;
+    text-align: center;
+    line-height: 24px;
+}
+
+.button {
+	margin-top: 80px;
+	color: #3ea2d8;
+	background-color: #dcdcdc;
+	width: 256px;
+	height: 56px;
+	border-radius: 24px;
+	font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 25px;
+}
+
+.logo {
+	margin-top: 12px;
+}
+
+@media (max-width: 1800px) {
+	.container_sport {
+		margin-top: 220px;
+}
+
+@media (max-width: 1600px) {
+	.container_sport {
+		width: 80%;
+	}
+
+@media (max-width: 1100px) {
+	.container_sport {
+		margin-top: 150px;
+		width: 80%;
+	}
+
+	.banner1 {
+		height: 790px;
+	}
+}
+
+@media (max-width: 880px) {
+	.header1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container_sport {
+		display: flex;
+		width: 70%;
+	}
+}
+
+@media (max-width: 668px) {
+	.container_sport {
+		margin-top: 100px;
+		width: 85%;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.banner1 {
+		height: 840px;
+	}
+}
