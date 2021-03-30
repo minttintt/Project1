@@ -92,7 +92,8 @@ ul, li {
 }
 
 .banner1 {
-	background: url(../images/banner.jpg) no-repeat 50% 50%;
+	min-height: 100vh;
+	background: url(../images/banner.jpg) no-repeat 100% 0;
 	background-size: cover;
 	max-height: 972px;
 }
@@ -128,12 +129,13 @@ header {
 }
 
 .container_sport {
-	width: 47%;
+	max-width: 800px;
 	margin: auto;
-	padding-top: 130px;
+	padding-top: 380px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 
 .sport_img {
@@ -170,24 +172,21 @@ header {
 	margin-top: 12px;
 }
 
-@media (max-width: 1800px) {
-	.container_sport {
-		margin-top: 220px;
-}
 
-@media (max-width: 1600px) {
-	.container_sport {
-		width: 80%;
+@media (max-width: 1270px) {
+	.header1 {
+		padding: 6px 50px 10px;
 	}
+}
 
 @media (max-width: 1100px) {
 	.container_sport {
-		margin-top: 150px;
-		width: 80%;
+		padding-top: 280px;
 	}
 
-	.banner1 {
-		height: 790px;
+	.button {
+	margin-top: 80px;
+	margin-bottom: 130px;
 	}
 }
 
@@ -200,21 +199,125 @@ header {
 
 	.container_sport {
 		display: flex;
-		width: 70%;
+		max-width: 700px;
+		padding-top: 270px;
+	}
+
+	.sport_img {
+		max-width: 550px;
+	}
+
+	.button {
+		margin-top: 60px;
+		margin-bottom: 100px;
+		width: 242px;
+		height: 48px;
+		font-size: 24px;
+	}
+
+	.sport_img_info {
+		font-size: 20px;
+	    line-height: 22px;
 	}
 }
 
 @media (max-width: 668px) {
 	.container_sport {
-		margin-top: 100px;
-		width: 85%;
+		padding-top: 190px;
+		max-width: 550px
+	}
+
+	.sport_img_info {
+		font-size: 18px;
+	    line-height: 22px;
+		margin-top: 46px;
+	}
+
+	.sport_img {
+		max-width: 450px;
+
+	}
+
+	.button {
+		margin-top: 40px;
+		margin-bottom: 75px;
+		width: 230px;
+		height: 42px;
+		font-size: 22px;
 	}
 }
 
+@media (max-width: 568px) {
+	.container_sport {
+		padding-top: 200px;
+		max-width: 500px
+	}
 
-@media (max-width: 480px) {
-	.banner1 {
-		height: 840px;
+	.sport_img_info {
+		font-size: 16px;
+	    line-height: 22px;
+		margin-top: 38px;
+	}
+
+	.sport_img {
+		max-width: 440px;
+
+	}
+
+	.button {
+		margin-top: 60px;
+		margin-bottom: 30px;
+		width: 190px;
+		height: 38px;
+		font-size: 20px;
+	}
+
+	.logo {
+		margin-top: 8px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container_sport {
+		padding: 200px 30px 0;
+	}
+
+	.sport_img {
+		max-width: 400px;
+	}
+
+		.button {
+		margin-top: 60px;
+		margin-bottom: 30px;
+		width: 190px;
+		height: 38px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	.container_sport {
+		padding: 180px 30px 0;
+	}
+
+	.sport_img {
+		max-width: 370px;
+	}
+}
+
+@media (max-width: 400px) {
+	.sport_img {
+		max-width: 350px;
+	}
+
+	.container_sport {
+		padding: 200px 30px 0;
+	}
+}
+
+@media (max-width: 373px) {
+	.sport_img {
+		max-width: 300px;
 	}
 }
 
