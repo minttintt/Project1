@@ -209,7 +209,7 @@ header {
 
 @media (max-width: 1100px) {
 	.container_sport {
-		padding-top: 354px;
+		padding-top: 454px;
 	}
 
 	.button {
@@ -286,7 +286,7 @@ header {
 
 @media (max-width: 568px) {
 	.container_sport {
-		padding-top: 324px;
+		padding-top: 304px;
 		max-width: 500px
 	}
 
@@ -316,7 +316,7 @@ header {
 
 @media (max-width: 500px) {
 	.container_sport {
-		padding: 328px 30px 0;
+		padding: 308px 30px 0;
 	}
 
 	.sport_img {
@@ -334,7 +334,7 @@ header {
 
 @media (max-width: 425px) {
 	.container_sport {
-		padding: 330px 30px 0;
+		padding: 250px 30px 0;
 	}
 
 	.sport_img {
@@ -348,13 +348,17 @@ header {
 	}
 
 	.container_sport {
-		padding: 320px 30px 0;
+		padding: 200px 30px 0;
 	}
 }
 
-@media (max-width: 373px) {
+@media (max-width: 375px) {
 	.sport_img {
-		max-width: 300px;
+		max-width: 270px;
+	}
+
+	.container_sport {
+		padding: 220px 30px 0;
 	}
 }
 
